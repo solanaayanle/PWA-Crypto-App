@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PWA CryptoTracking App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+ </head>
+
+<body>
+    <nav class="navbarIndex">
+        <a href="#" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100.608"
+                height="50" viewBox="0 0 406.608 102">
+                <defs>
+                    <filter id="bt" x="0" y="3.388" width="96.222" height="91.98" filterUnits="userSpaceOnUse">
+                        <feOffset dy="3" input="SourceAlpha" />
+                        <feGaussianBlur stdDeviation="3" result="blur" />
+                        <feFlood flood-opacity="0.161" />
+                        <feComposite operator="in" in2="blur" />
+                        <feComposite in="SourceGraphic" />
+                    </filter>
+                    <filter id="BitTrack" x="92.608" y="0" width="314" height="102" filterUnits="userSpaceOnUse">
+                        <feOffset dy="3" input="SourceAlpha" />
+                        <feGaussianBlur stdDeviation="3" result="blur-2" />
+                        <feFlood flood-opacity="0.161" />
+                        <feComposite operator="in" in2="blur-2" />
+                        <feComposite in="SourceGraphic" />
+                    </filter>
+                </defs>
+                <g id="Gruppe_7" data-name="Gruppe 7" transform="translate(49.257 63.489) scale(0.978 1)">
+                    <path id="Pfad_12" data-name="Pfad 12"
+                        d="M941.839,312.517c-6.382,22.358-32.289,35.961-57.866,30.384s-41.142-28.221-34.765-50.58,32.281-35.966,57.86-30.394S948.221,290.153,941.839,312.517Z"
+                        transform="translate(-898.204 -318.679)" fill="#f1ff00" />
+                    <g transform="matrix(1.02, 0, 0, 1, -50.36, -63.49)" filter="url(#bt)">
+                        <text id="bt-2" data-name="bt" transform="translate(4.48 5.43) scale(0.98 1)" fill="#fff"
+                            font-size="60" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                            <tspan x="10.278" y="65">bt</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#BitTrack)">
+                    <text id="BitTrack-2" data-name="BitTrack" transform="translate(101.61 74)" fill="#f1ff00"
+                        font-size="70" font-family="Aileron-Black, Aileron" font-weight="800" letter-spacing="0.005em">
+                        <tspan x="0" y="0">BitTrack</tspan>
+                    </text>
+                </g>
+            </svg>
+        </a>
+    </nav>
+    <div class="section1">
+        <div class="homepage">
+            <h1 class="header">Track all your cryptocurrencies!</h1>
+            <p class="paragraph">BitTrack shows you all prices in real time, quickly and simply.</p>
+            <svg class="cryptoArt" xmlns="http://www.w3.org/2000/svg" width="371.101" height="269.208"
+                viewBox="0 0 371.101 269.208">
+                <g id="Group_6" data-name="Group 6" transform="translate(-29.038 -289)">
+                    <path id="Path_6" data-name="Path 6"
+                        d="M58.4,42.2C6.357,81.125,0,140.964,0,140.964s78.025-3.273,130.07-42.2S188.472,0,188.472,0,110.447,3.273,58.4,42.2Z"
+                        transform="translate(195.893 378.509) rotate(-7)" fill="#3f3d56" />
+                    <g id="Group_3" data-name="Group 3" transform="translate(29.038 307.457)">
+                        <path id="Path_12" data-name="Path 12"
+                            d="M932.262,313.943a42.874,42.874,0,1,1-31.231-51.982A42.874,42.874,0,0,1,932.262,313.943Z"
+                            transform="translate(-847.779 -260.679)" fill="#f7931a" />
+                        <path id="Path_13" data-name="Path 13"
+                            d="M909.571,297.458c.854-5.707-3.491-8.775-9.433-10.821l1.927-7.731-4.706-1.173-1.876,7.527c-1.237-.308-2.508-.6-3.77-.887l1.89-7.577-4.7-1.173-1.929,7.728c-1.024-.233-2.029-.464-3-.706l.005-.024-6.49-1.62-1.252,5.026s3.491.8,3.418.85a2.5,2.5,0,0,1,2.193,2.737l-2.2,8.807a3.893,3.893,0,0,1,.489.157c-.157-.039-.324-.082-.5-.123l-3.077,12.337a1.713,1.713,0,0,1-2.156,1.118c.047.068-3.42-.854-3.42-.854l-2.336,5.387,6.124,1.527c1.139.285,2.256.584,3.355.866l-1.947,7.819,4.7,1.173,1.929-7.736c1.284.348,2.53.67,3.75.973l-1.922,7.7,4.706,1.173,1.947-7.8c8.024,1.519,14.058.906,16.6-6.352,2.047-5.844-.1-9.214-4.324-11.413C906.638,303.658,908.954,301.635,909.571,297.458ZM898.82,312.534c-1.454,5.844-11.293,2.685-14.483,1.892l2.584-10.359C890.111,304.864,900.34,306.44,898.82,312.534Zm1.456-15.161c-1.327,5.316-9.516,2.615-12.172,1.953l2.343-9.4c2.656.663,11.211,1.9,9.829,7.443Z"
+                            transform="translate(-846.279 -259.895)" fill="#fff" />
+                    </g>
+                    <path id="Path_85" data-name="Path 85"
+                        d="M58.4,42.2C6.357,81.125,0,140.964,0,140.964s78.025-3.273,130.07-42.2S188.472,0,188.472,0,110.447,3.273,58.4,42.2Z"
+                        transform="translate(93.499 558.208) rotate(-110)" fill="#3f3d56" />
+                    <path id="Path_87" data-name="Path 87"
+                        d="M58.4,42.2C6.357,81.125,0,140.964,0,140.964s78.025-3.273,130.07-42.2S188.472,0,188.472,0,110.447,3.273,58.4,42.2Z"
+                        transform="matrix(0.326, -0.946, 0.946, 0.326, 69.562, 484.491)" fill="#f1ff00" />
+                    <path id="Path_86" data-name="Path 86"
+                        d="M58.4,42.2C6.357,81.125,0,140.964,0,140.964s78.025-3.273,130.07-42.2S188.472,0,188.472,0,110.447,3.273,58.4,42.2Z"
+                        transform="translate(121.516 409.554) rotate(-31)" fill="#629ada" />
+                    <circle id="Ellipse_12" data-name="Ellipse 12" cx="41.369" cy="41.369" r="41.369"
+                        transform="translate(298.016 289)" fill="#141414" />
+                    <path id="Path_116" data-name="Path 116"
+                        d="M541.683,365.381h0l16.737-9.893-16.737-27.771h0l-16.736,27.771Z"
+                        transform="translate(-202.751 -26.833)" fill="#fff" />
+                    <path id="Path_115" data-name="Path 115"
+                        d="M541.684,382.247l16.747-23.585-16.747,9.888h0l-16.737-9.888,16.736,23.585h0Z"
+                        transform="translate(-202.761 -29.17)" fill="#fff" />
+                </g>
+            </svg>
+            <a class="buttonLink" target="" href="name.html">
+                <button class="startBtn">Get Started</button>
+            </a>
+        </div>
+    </div>
+<script>
+    //check whether browser support service workers
+    if ('serviceWorker' in navigator) {
+        //wait until page loaded to avoid delaying rendering
+        window.addEventListener('load', function () {
+            //register service worker
+            navigator.serviceWorker.register('serviceworker.js').then(
+                function (registration) {
+                    console.log('Service worker registration successful',
+                        registration);
+                },
+                function (err) {
+                    console.log('Service worker registration failed', err);
+                });
+        });
+    }
+</script>
+</body>
+
+
+</html>

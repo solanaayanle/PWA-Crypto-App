@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PWA CryptoTracking App</title>
+    <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="dashboard.html" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="62"
+                viewBox="0 0 406.608 102">
+                <defs>
+                    <filter id="bt" x="0" y="3.388" width="96.222" height="91.98" filterUnits="userSpaceOnUse">
+                        <feOffset dy="3" input="SourceAlpha" />
+                        <feGaussianBlur stdDeviation="3" result="blur" />
+                        <feFlood flood-opacity="0.161" />
+                        <feComposite operator="in" in2="blur" />
+                        <feComposite in="SourceGraphic" />
+                    </filter>
+                    <filter id="BitTrack" x="92.608" y="0" width="314" height="102" filterUnits="userSpaceOnUse">
+                        <feOffset dy="3" input="SourceAlpha" />
+                        <feGaussianBlur stdDeviation="3" result="blur-2" />
+                        <feFlood flood-opacity="0.161" />
+                        <feComposite operator="in" in2="blur-2" />
+                        <feComposite in="SourceGraphic" />
+                    </filter>
+                </defs>
+                <g id="Gruppe_7" data-name="Gruppe 7" transform="translate(49.257 63.489) scale(0.978 1)">
+                    <path id="Pfad_12" data-name="Pfad 12"
+                        d="M941.839,312.517c-6.382,22.358-32.289,35.961-57.866,30.384s-41.142-28.221-34.765-50.58,32.281-35.966,57.86-30.394S948.221,290.153,941.839,312.517Z"
+                        transform="translate(-898.204 -318.679)" fill="#f1ff00" />
+                    <g transform="matrix(1.02, 0, 0, 1, -50.36, -63.49)" filter="url(#bt)">
+                        <text id="bt-2" data-name="bt" transform="translate(4.48 5.43) scale(0.98 1)" fill="#fff"
+                            font-size="60" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                            <tspan x="10.278" y="65">bt</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#BitTrack)">
+                    <text id="BitTrack-2" data-name="BitTrack" transform="translate(101.61 74)" fill="#f1ff00"
+                        font-size="70" font-family="Aileron-Black, Aileron" font-weight="800" letter-spacing="0.005em">
+                        <tspan x="0" y="0">BitTrack</tspan>
+                    </text>
+                </g>
+            </svg>
+        </a>
+    </nav>
+    <div id="currentCoinPrices">
+         <a href="dashboard.html"><button class="goBack">Go back</button></a>
+        <h1 id="currentPrices">Current Prices</h1>
+      </div>
+     </div>
+</body>
+<script>
+    //check whether browser support service workers
+    if ('serviceWorker' in navigator) {
+        //wait until page loaded to avoid delaying rendering
+        window.addEventListener('load', function () {
+            //register service worker
+            navigator.serviceWorker.register('serviceworker.js').then(
+                function (registration) {
+                    console.log('Service worker registration successful',
+                        registration);
+                },
+                function (err) {
+                    console.log('Service worker registration failed', err);
+                });
+        });
+    }
+</script>
+
+<script type="text/javascript" src="app.js">
+
+</script>
+
+</html>

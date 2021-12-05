@@ -1,0 +1,576 @@
+body{
+      margin: 0px;
+      padding: 0px;
+    font-family: Montserrat, sans-serif;
+ }
+
+.navbarIndex {
+    font-size: 50px;
+    background-color: #22c3d1;
+    border: none;
+}
+
+#signOut{
+    float: right;
+    margin: 20px;
+     padding: 10px;
+       border: 15px;
+     cursor: pointer;
+     text-align: center;
+     background-color: #629ADA;
+     border-radius: 15px;
+     font-size: 15px;
+     font-weight: 650;
+     text-decoration: none;
+     letter-spacing: .15em;
+     color: #fff;
+}
+
+.section1 {
+    width: 100%;
+    padding-top: 18px;
+    text-align: center;
+    background-color: #22c3d1;
+    border: none;
+}
+
+.header {
+margin-bottom: 2%;
+font-size: 40px;
+}
+
+.paragraph{
+    margin-top: 0%;
+    font-size: 20px;
+}
+
+.cryptoArt {
+align-content: center;
+width: 100%;
+}
+
+.startBtn {
+    font-family: Montserrat, sans-serif;
+    padding: 12px 20px 10px;
+    border: 15px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #3FD978;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 650;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: #fff;
+}
+
+.nameBubble {
+    width: 340px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    position: relative
+}
+.nameBubble input {
+    position: relative;
+    padding: 20px;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border: 0.2px solid #dbdbdb;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .6);
+    outline: none;
+    background-color: #F6F6F6;
+}
+
+.formBubble {
+width:340px;
+height:440px;
+background:#ffffff;
+border-radius:8px;
+box-shadow:0 0 40px -10px #000;
+margin:calc(50vh - 220px) auto;
+padding:20px 30px;
+max-width:calc(100vw - 40px);
+position:relative
+}
+
+
+
+form .username input {
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  font-size: larger;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border: 0.2px solid #dbdbdb;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, .6);  
+  outline: none;
+  background-color: #F6F6F6;
+}
+
+.formBubble h2 {
+ color: black;
+ text-align: center;
+text-transform: uppercase;
+  letter-spacing: .15em;
+}
+
+form label {
+     text-transform: uppercase;
+     letter-spacing: .15em;
+color: rgb(0, 0, 0);
+}
+
+form .submitBtn {
+    padding: 20px;
+        border: 15px;
+        text-align: center;
+        text-decoration: none;
+        
+        background-color: #0044ff;
+        border-radius: 15px;
+        font-weight: 650;
+        letter-spacing: .15em;
+        color: #fff;
+}
+
+ .navbar {
+     background-color: #22c3d1;
+     border: none;
+ }
+
+
+ .logo {
+     text-decoration: none;
+ }
+
+ .logo {
+     display: inline-block;
+     margin-top: 10px;
+     margin-left: 20px;
+ }
+.custom-shape-divider-bottom-1620670471 {
+    width: 100%!important;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1620670471 svg {
+    width: 100%;
+    height: 300px;
+}
+
+.custom-shape-divider-bottom-1620670471 .shape-fill {
+    fill: #22C3D1;
+}
+
+ 
+ @media screen and (min-width: 768px) {
+     .navbar {
+         display: flex;
+         justify-content: space-between;
+         padding-bottom: 0;
+         height: 70px;
+         align-items: center;
+     }
+     .nav-links {
+         margin-left: 40px;
+     }
+
+     .logo {
+         margin-top: 0;
+     }
+
+     .navbar-toggle {
+         display: none;
+     }
+     #signOut {
+         padding: 20px;
+         float: right;
+         border: 15px;
+         cursor: pointer;
+         text-align: center;
+         background-color: #629ADA;
+         border-radius: 15px;
+         font-size: 20px;
+         font-weight: 650;
+         text-decoration: none;
+         letter-spacing: .15em;
+         color: #fff;
+     }
+
+    }
+    @media screen and (min-width: 480px) {
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 0;
+            height: 70px;
+            align-items: center;
+        }
+
+       
+        .nav-links {
+            margin-left: 40px;
+        }
+
+        .logo {
+            margin-top: 0;
+        }
+
+        .navbar-toggle {
+            display: none;
+        }
+
+        #signOut {
+            padding: 20px;
+            float: right;
+            border: 15px;
+            cursor: pointer;
+            text-align: center;
+            background-color: #629ADA;
+            border-radius: 15px;
+            font-size: 20px;
+            font-weight: 650;
+            text-decoration: none;
+            letter-spacing: .15em;
+            color: #fff;
+        }
+
+    }
+ 
+.sectionDivider{
+     background-color: #22c3d1;
+     border: none;
+     height: 250px;
+     margin-bottom: 50px;
+     border-bottom-left-radius: 50% 100%;
+     border-bottom-right-radius: 50% 100%;
+}
+
+
+.innerSection .info{
+ font-size: 20px;
+ color: #ffffff;
+ margin: 0%;
+ padding: 10px;
+ border: none;
+}
+
+
+
+.innerSection {
+     position: relative;
+     width: 50%;
+     margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+ 
+}
+
+
+.addedCryptoPrices {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    align-items: center;
+    
+}
+
+.addedCryptoCoin {
+     padding: 20px;
+     margin-top: 35px;
+     width: 50%;
+     height: 40px;
+     color: rgb(255, 255, 255);
+     border-radius: 15px;
+     border: 0.2px solid #dbdbdb;
+     box-shadow: 0 1px 8px rgba(0, 0, 0, .6);
+     outline: none;
+     background-color: #ffffff;
+     box-shadow: 0 6px 10px 0 rgb(202 215 223 / 40%)
+}
+
+.addMoreCoin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.goToAddBtn {
+        color: #fff;
+        background-color: #22c3d1;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        border: none;
+        border-radius: 50px;
+}
+.goToAllCoinsBtn {
+     color: #fff;
+     background-color: #22c3d1;
+     padding: 10px;
+     font-size: 20px;
+     font-weight: 700;
+     border: none;
+     border-radius: 50px;
+}
+
+.searchCoinSection {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     align-items: center;
+     text-align: center;
+     margin-top: 40px;
+     padding: 30px;
+}
+#search {
+    width: 240px;
+}
+
+#returnedResults {
+  text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 120px 120px;
+}
+.goBack {
+
+    background-color: #3FD978;
+     color: #fff;
+     outline: none;
+     margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+
+}
+
+#getCoins {
+ background-color: #22c3d1;
+ color: #fff;
+ outline: none;
+ margin: 10px;
+ padding: 10px;
+ font-size: 15px;
+ font-weight: 700;
+ border: none;
+ border-radius: 50px;
+}
+/*INPUT AND SECTION FOR SEARCHING COIN*/
+.searchResults {
+        display: inline-flex;
+        padding: 10px;
+        border-radius: 15px;
+         border: 0.2px solid #dbdbdb;
+         box-shadow: 0 1px 8px rgba(0, 0, 0, .6);
+         outline: none;
+         background-color: #ffffff;
+}
+
+
+.searchResults #search {
+border: none;
+font-size: xx-large;
+}
+
+.addFromSearch {
+    color: #fff;
+    outline: none;
+     background-color: #22c3d1;
+     font-size:20px;
+     padding: 10px;
+     font-weight: 700;
+     border-radius: 50px;
+     border: none;
+}
+
+
+.addCoin {
+ margin-top: 35px;
+ padding: 30px;
+ border-radius: 15px;
+ border: 0.2px solid #dbdbdb;
+ outline: none;
+ background-color: #ffffff;
+ box-shadow: 0 6px 10px 0 rgb(202 215 223 / 40%);
+}
+ .coinInfo{
+     display: inline-flex;
+     padding: 8px;
+     font-size: 25px;
+     font-weight: 700;
+     padding-left: 20px;
+     margin: 0%;
+ }
+
+.finishedPurchase {
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       align-items: center;
+       text-align: center;
+       margin-top: 40px;
+
+}
+
+.finished {
+    margin-top: 35px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    border: 0.2px solid #dbdbdb;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .6);
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0 6px 10px 0 rgb(202 215 223 / 40%)
+}
+
+.finished h1, p {
+    padding: 5%;
+}
+.section2Divider {
+      background-color: #22c3d1;
+      border: #22c3d1;
+      height: 200px;
+      margin-top: -10px;
+      margin-bottom: 50px;
+      border-bottom-left-radius: 50% 100%;
+      border-bottom-right-radius: 50% 100%;
+
+}
+
+.back2Dashboard {
+ background-color: #3FD978;
+ color: #fff;
+ outline: none;
+ text-decoration: none;
+ padding: 15px;
+ margin-top: 20px;
+ font-weight: 200;
+ border-radius: 50px;
+ border: none;
+}
+.addedCryptoPrices{
+    margin-bottom: 50px;
+
+}
+
+#currentPrices {
+    cursor: pointer;
+}
+
+#currentCoinPrices {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.allCoins1 {
+    margin-top: 35px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0.2px solid #dbdbdb;
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0 6px 10px 0 rgb(202 215 223 / 40%)
+}
+
+
+span.coinInform {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 20px;
+    margin: 0%;
+}
+
+
+h3.coinInform {
+  display: inline-flex;
+  padding: 8px;
+  font-size: 25px;
+  font-weight: 700;
+  padding-left: 20px;
+  margin: 0%;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

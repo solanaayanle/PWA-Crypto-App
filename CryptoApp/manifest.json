@@ -1,0 +1,23 @@
+{
+  "name": "BitTrack: PWA Crypto Tracking App",
+  "short_name": "BitTrack",
+  "description": "A crypto tracking app that lets you add coins!",
+  "theme_color": "#22c3d1",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "index.html",  
+  "scope": "index.html",
+  "icons": [
+    {
+      "src": "iconSmall.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "iconBig.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+
+}

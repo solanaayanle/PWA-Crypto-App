@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PWA CryptoTracking App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <meta name="HandheldFriendly" content="true">
+   </head>
+
+<body>
+   <nav class="navbar">
+       <a href="dashboard.html" class="logo">
+           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150"
+               height="62" viewBox="0 0 406.608 102">
+               <defs>
+                   <filter id="bt" x="0" y="3.388" width="96.222" height="91.98" filterUnits="userSpaceOnUse">
+                       <feOffset dy="3" input="SourceAlpha" />
+                       <feGaussianBlur stdDeviation="3" result="blur" />
+                       <feFlood flood-opacity="0.161" />
+                       <feComposite operator="in" in2="blur" />
+                       <feComposite in="SourceGraphic" />
+                   </filter>
+                   <filter id="BitTrack" x="92.608" y="0" width="314" height="102" filterUnits="userSpaceOnUse">
+                       <feOffset dy="3" input="SourceAlpha" />
+                       <feGaussianBlur stdDeviation="3" result="blur-2" />
+                       <feFlood flood-opacity="0.161" />
+                       <feComposite operator="in" in2="blur-2" />
+                       <feComposite in="SourceGraphic" />
+                   </filter>
+               </defs>
+               <g id="Gruppe_7" data-name="Gruppe 7" transform="translate(49.257 63.489) scale(0.978 1)">
+                   <path id="Pfad_12" data-name="Pfad 12"
+                       d="M941.839,312.517c-6.382,22.358-32.289,35.961-57.866,30.384s-41.142-28.221-34.765-50.58,32.281-35.966,57.86-30.394S948.221,290.153,941.839,312.517Z"
+                       transform="translate(-898.204 -318.679)" fill="#f1ff00" />
+                   <g transform="matrix(1.02, 0, 0, 1, -50.36, -63.49)" filter="url(#bt)">
+                       <text id="bt-2" data-name="bt" transform="translate(4.48 5.43) scale(0.98 1)" fill="#fff"
+                           font-size="60" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                           <tspan x="10.278" y="65">bt</tspan>
+                       </text>
+                   </g>
+               </g>
+               <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#BitTrack)">
+                   <text id="BitTrack-2" data-name="BitTrack" transform="translate(101.61 74)" fill="#f1ff00"
+                       font-size="70" font-family="Aileron-Black, Aileron" font-weight="800" letter-spacing="0.005em">
+                       <tspan x="0" y="0">BitTrack</tspan>
+                   </text>
+               </g>
+           </svg>
+       </a>
+               <a href="index.html" id="signOut">Sign Out</a>
+               </a>  
+        <div class="darkMode">
+        <label>Switch on Dark Mode</label>
+            <label class="switch"> 
+            <input type="checkbox" id="turnOn" onclick="darkMode()" onblur="lightMode()">
+            <span class="slider round"></span>
+        </label> 
+    </div>
+   </nav>
+   <div class="sectionDivider">
+       <div class="totalValue">
+           <div class="innerSection">
+               <h3 class="info" id="greetUser"></h3>
+               <h2 class="info" id="totalValue">Total Value</h2>
+               <h1 class="info" id="value">£4576476</h1>
+           </div>
+       </div>
+   </div>
+    
+   <div class="addMoreCoin">
+       <a href="addCoin.html"> <button class="goToAddBtn">Add more Coins</button></a></h3>
+   </div>
+   <div class="addMoreCoin">
+       <a href="allCoins.html"> <button class="goToAllCoinsBtn">See current Prices</button></a></h3>
+   </div>
+   <div class="addedCryptoPrices">
+       <div class="allCoins1">
+           <span class="coinInform">BTC</span>
+           <h3 class="coinInform">Bitcoin</h3>
+           <h3 class="coinInform">£45764</h3>
+       </div>
+       <div class="allCoins1">
+           <span class="coinInform">ADA</span>
+           <h3 class="coinInform">Cardano</h3>
+           <h3 class="coinInform">£564</h3>
+       </div>
+       <div class="allCoins1">
+           <span class="coinInform">ETH</span>
+           <h3 class="coinInform">Etheruem</h3>
+           <h3 class="coinInform">£264</h3>
+       </div>
+       <div class="allCoins1">
+           <span class="coinInform">DOGE</span>
+           <h3 class="coinInform">Doge Coine</h3>
+           <h3 class="coinInform">£0.0034</h3>
+       </div>
+   </div>
+</body>
+<script>
+    //check whether browser support service workers
+    if ('serviceWorker' in navigator) {
+        //wait until page loaded to avoid delaying rendering
+        window.addEventListener('load', function () {
+            //register service worker
+            navigator.serviceWorker.register('serviceworker.js').then(
+                function (registration) {
+                    console.log('Service worker registration successful',
+                        registration);
+                },
+                function (err) {
+                    console.log('Service worker registration failed', err);
+                });
+        });
+    }
+</script>
+<script src="app.js"></script>
+
+</html>
